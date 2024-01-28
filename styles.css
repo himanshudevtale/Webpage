@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #3f51b5;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.temperature {
+  font-size: 18px;
+  margin-right: 16px;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  padding: 16px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-right: 1px solid #ddd;
+}
+
+.search-bar {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.search-bar button {
+  padding: 8px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.bid-request {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+ 
